@@ -1394,3 +1394,195 @@ footer {
   padding-left: 30px;
   padding-bottom: 30px;
 }
+/* "More from us" section responsive only */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .moreinfo {
+    padding: 80px 34px;
+    width: 100%;
+    background: #f5f6f6;
+  }
+
+  .picarea {
+    width: 253px;
+  }
+  .priceinfo {
+    width: 328px;
+  }
+  .pricePlan {
+    width: 100%;
+  }
+  .infowrapper {
+    padding: 0px 25px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .picarea {
+    width: 20%;
+  }
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .priceinfo {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .picarea {
+    width: 48%;
+  }
+  .moreinfo {
+    padding: 80px 40px;
+  }
+  .picpara p {
+    font-size: 15px;
+  }
+  .picheading h2 {
+    font-size: 16px;
+  }
+  .heading h1::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 44%;
+    height: 3px;
+    width: 53px;
+    background: red;
+  }
+  .heading h1 {
+    font-size: 28px;
+  }
+  .headingpara > p {
+    font-size: 14px;
+  }
+  .headingpara {
+    width: 414px;
+  }
+  .priceinfo {
+    width: 60%;
+  }
+  .priceinfo {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .pricepara {
+    padding-bottom: 42px;
+    width: 369px;
+  }
+  priceheading h1 {
+    font-size: 29px;
+  }
+  .priceheading h1::before {
+    top: 54px;
+    left: 42%;
+    height: 3px;
+    width: 63px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .picarea {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 31px;
+  }
+  .headingpara {
+    width: 354px;
+  }
+  .headingpara > p {
+    font-size: 13px;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .heading h1 {
+    font-size: 19px;
+  }
+
+  .heading h1::before {
+    content: "";
+    position: absolute;
+    top: 38px;
+    left: 42%;
+    height: 3px;
+    width: 41px;
+    background: red;
+  }
+  .headingpara {
+    width: 239px;
+  }
+  .priceinfonum h1 {
+    font-size: 44px;
+  }
+  button#pricebtn {
+    font-size: 9px;
+    padding: 14px 26px;
+  }
+  .pricepara {
+    padding-bottom: 43px;
+    width: 326px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+  }
+  .heading h1::before {
+    top: 31px;
+    left: 38%;
+    height: 2px;
+    width: 30px;
+  }
+  .heading h1 {
+    font-size: 14px;
+  }
+  .headingpara {
+    width: 111px;
+    margin: auto;
+  }
+  .priceheading h1 {
+    font-size: 29px;
+  }
+  .priceheading h1::before {
+    top: 50px;
+    left: 40%;
+    height: 3px;
+    width: 49px;
+  }
+  .pricepara {
+    width: 281px;
+  }
+  button#pricebtn {
+    font-size: 9px;
+    padding: 5px 26px;
+  }
+}
+
